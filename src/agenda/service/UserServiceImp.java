@@ -1,6 +1,5 @@
 package agenda.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,7 @@ import agenda.model.User;
 
 @Component
 public class UserServiceImp implements UserService {
-	
+	 
 	@Autowired
 	@Qualifier("userDaoImp")
 	private UserDao userDao;
