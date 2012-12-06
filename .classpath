@@ -30,5 +30,7 @@
 	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-webmvc-3.2.0.RC1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-webmvc-portlet-3.2.0.RC1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/swing-layout-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/AbsoluteLayout.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

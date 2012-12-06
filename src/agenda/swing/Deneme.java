@@ -12,7 +12,7 @@ public class Deneme {
 
 	/**
 	 * @param args
-	 */
+	
 	private static final ApplicationContext ac = new ClassPathXmlApplicationContext(
 			"applicationContext.xml");
 
@@ -22,5 +22,5 @@ public class Deneme {
 		List<User> users = userService.getSelectAll();
 		System.out.println(users.get(0).getUsername());
 	}
-
+ */
 }
