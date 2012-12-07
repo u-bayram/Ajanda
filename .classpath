@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/hibernate-commons-annotations-4.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/hibernate-core-4.1.8.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/javassist-3.15.0-GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/jboss-logging-3.1.0.GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Hibernate/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-aop-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-aspects-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-beans-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-context-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-context-support-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-core-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-expression-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-instrument-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-instrument-tomcat-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-jdbc-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-jms-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-orm-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-oxm-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-struts-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-test-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-tx-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-web-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-webmvc-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/Spring/spring-webmvc-portlet-3.2.0.RC1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/XeNo/Documents/GitHub/Ajanda/library/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="lib/swing-layout-1.0.3.jar"/>
 	<classpathentry kind="lib" path="lib/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="lib/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-core-4.1.8.Final.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="lib/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aspects-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-support-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-instrument-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-instrument-tomcat-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jdbc-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jms-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-orm-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-oxm-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-struts-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-test-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-portlet-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="lib/swing-layout-1.0.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
