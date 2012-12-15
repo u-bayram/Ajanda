@@ -5,12 +5,13 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import agenda.dao.UserDao;
 import agenda.model.User;
 
 @Component
-public class UserServiceImp implements UserService {
+public class UserServiceImp implements UserService{
 	 
 	@Autowired
 	@Qualifier("userDaoImp")
@@ -24,9 +25,32 @@ public class UserServiceImp implements UserService {
 		this.userDao = userDao;
 	}
 
-	@Override
-	public List<User> getSelectAll() {
-		return userDao.getSelectAll();
+	@Transactional
+	public void saveUser(User user) {
+		userDao.saveUser(user);
 	}
+
+	@Transactional
+	public void deleteUser(User user) {
+		userDao.deleteUser(user);
+	}
+
+	@Transactional
+	public void saveOrUpdateUser(User user) {
+		userDao.saveOrUpdateUser(user);
+	}
+
+	@Transactional
+	public User findByUsernameAndPassword(String username, String password) {
+		return userDao.findByUsernameAndPassword(username, password);
+	}
+
+	@Transactional
+	public User findByUsername(String username) {
+		return userDao.findByUsername(username);
+	}
+
+
+
 
 }
